@@ -3,7 +3,7 @@ var timer = setInterval(function() {
 
     let now = new Date().getTime();
     let t = endDate - now;
-    document.getElementById("timer").style.backgroundImage = pkk.jpg;
+    
     if (t >= 0) {
     
         let days = Math.floor(t / (1000 * 60 * 60 * 24));
