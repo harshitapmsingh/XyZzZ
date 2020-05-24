@@ -19,10 +19,10 @@ var timer = setInterval(function() {
         document.getElementById("timer-mins").innerHTML = ("0"+mins).slice(-2) + "<span class='label'>Minutes</span>";
     
         document.getElementById("timer-secs").innerHTML = ("0"+secs).slice(-2) + "<span class='label'>Seconds</span>";
-		document.getElementById("bottom").innerHTML = "<br>Until Palak's Birthday";
+		document.getElementById("bottom").innerHTML = "<br>Until Prerna's NEET Exam";
 		
     } else {
-        document.getElementById("timer").innerHTML = "Happy Birthday, Palak!";
+        document.getElementById("timer").innerHTML = "All the Best,Prerna!";
 		document.getElementById("botton").innerHTML = "";
     }
     
